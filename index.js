@@ -6,8 +6,6 @@ const firstPwd = document.getElementById("first-pwd");
 const secondPwd = document.getElementById("second-pwd");
 const btnClipboard = document.getElementById("btn-copy");
 
-let pass = [];
-
 function getRandom(){
   let pass = [];
 
