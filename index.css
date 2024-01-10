@@ -3,6 +3,7 @@ body {
     width: 550px;
     height: 550px;
     background-color: #02184B;
+    font-family: 'Inter', sans-serif;
 }
 
 .colors {
@@ -12,6 +13,7 @@ body {
 h1 {
     font-size: 40px;
     margin-bottom: 5px;
+    font-family: 'Karla', sans-serif;
 }
 
 .greenText {
@@ -72,6 +74,12 @@ hr {
     height: 20px;
     align-items: center;
     color: #10B981
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -.125em;
 }
 
 /* toggle example
