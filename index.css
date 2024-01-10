@@ -55,7 +55,8 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 450px;
-    color: #2F3E53;
+    border: 1px solid #2F039C;
+    
 }
 
 .passwordContainer {
