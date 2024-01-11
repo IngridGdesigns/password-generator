@@ -83,6 +83,18 @@ hr {
   vertical-align: -.125em;
 }
 
+input {
+  border: none;
+  border-radius: 5px;
+  width: 45px;
+  padding: 5px 5px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-style: bolder;
+  color: #10B981
+}
+
+
 /* toggle example
 .switch {
   position: relative;
