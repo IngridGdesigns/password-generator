@@ -26,9 +26,9 @@ btnEl.addEventListener("click", () => {
         passwordLength = 15;
     }
   
-    if(passwordLength < 4 || passwordLength > 20){
-        passwordLength = 15;
-    }
+    // if(passwordLength < 4 || passwordLength > 20){
+    //     passwordLength = 15;
+    // }
     
     firstPwd.textContent = getRandom(passwordLength);
     secondPwd.textContent = getRandom(passwordLength);
