@@ -6,6 +6,18 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+#password-interface {
+  background-color: #4C1D95;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  align-items: left;
+}
+
 .colors {
     border-top: 2px solid #2F3E53;
 }
@@ -37,18 +49,6 @@ p {
 
 #btn-el:hover {
     background-color: #936AF9;
-}
-
-section {
-    background-color: #4C1D95;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    align-items: left;
 }
 
 hr {
