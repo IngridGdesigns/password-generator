@@ -10,8 +10,14 @@
         <main id="password-interface">
             <h1>Generate a <br> <span class=greenText>random password</span></h1>
             <p>Never use an insecure password again.</p>
-            <label><b>Set password length between 4 and 20 characters</b></label>
+            <label><b>Optional:</b><br>
+                Set password length between 4 and 20 characters
+            </label>
             <input type="text" required minlength="4" required maxlength="20" id="input-length">
+            <label class="switch">
+                <input id="toggle" type="checkbox" checked>
+                <span class="slider round"></span>
+            </label> 
             <button id="btn-el" type="button">Generate passwords</button>
             <hr class="colors">
             <section class="passwordContainer">
