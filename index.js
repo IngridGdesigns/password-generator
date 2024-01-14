@@ -5,7 +5,7 @@ const btnEl = document.getElementById("btn-el");
 const firstPwd = document.getElementById("first-pwd");
 const secondPwd = document.getElementById("second-pwd");
 const btnClipboard = document.getElementById("btn-copy");
-const input = document.getElementById("input-length");
+const inputLength = document.getElementById("input-length");
 
 
 function getRandom(passwordLength = 15){
@@ -20,15 +20,11 @@ function getRandom(passwordLength = 15){
 }
 
 btnEl.addEventListener("click", () => {
-    let passwordLength = input.value;
+    let passwordLength = inputLength.value;
   
     if (!passwordLength) {
         passwordLength = 15;
     }
-  
-    // if(passwordLength < 4 || passwordLength > 20){
-    //     passwordLength = 15;
-    // }
     
     firstPwd.textContent = getRandom(passwordLength);
     secondPwd.textContent = getRandom(passwordLength);
