@@ -96,6 +96,13 @@ input {
 }
 
 /* toggle  */
+#symbols {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
 .switch {
   position: relative;
   display: inline-block;
