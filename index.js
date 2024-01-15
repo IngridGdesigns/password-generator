@@ -48,13 +48,12 @@ function isInputChecked(isChecked) {
     } 
   
     return characters
-    
 }
 
 function getValue() {
     const isChecked = document.getElementById("input-symbol").checked;
-
-   if(isChecked){
+    
+    if (isChecked) {
      return true;
    } else {
      return false;
