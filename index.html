@@ -1,11 +1,12 @@
 <!doctype html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap" rel="stylesheet">
+</head>
     <body>
         <main id="password-interface">
             <h1>Generate a <br> <span class=greenText>random password</span></h1>
@@ -13,13 +14,13 @@
             <label><b>Optional:</b><br>
                 Set password length between 4 and 20 characters
             </label>
-            <input type="text" required minlength="4" required maxlength="20" id="input-length">
+            <input id="input-length" type="text">
             <div id="symbols">
                 <label class="switch">
-                    <input id="toggle" type="checkbox" checked>
+                    <input id="input-symbol" type="checkbox" checked>
                     <span class="slider round"></span>
-                </label> 
-                Symbols
+                </label>
+                <div>Symbols</div>
             </div>
             <button id="btn-el" type="button">Generate passwords</button>
             <hr class="colors">
