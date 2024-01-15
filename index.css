@@ -45,6 +45,7 @@ p {
   padding: 10px 20px;
   border-radius: 5px;
   width: 200px;
+  margin-bottom: 20px;
 }
 
 #btn-el:hover {
@@ -52,10 +53,9 @@ p {
 }
 
 hr {
-  margin-top: 20px;
   margin-bottom: 20px;
   width: 450px;
-  border: 1px solid #2F039C;
+  border-top: 1px solid #2F039C;
 
 }
 
