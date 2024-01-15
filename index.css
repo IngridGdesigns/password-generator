@@ -90,9 +90,14 @@ input {
   padding: 5px 5px;
   margin-top: 8px;
   margin-bottom: 15px;
-  font-style: bolder;
+  font-style: bold;
   color: #10B981;
+  text-align: center;
   font-size: small;
+}
+
+#input-length {
+  background-color: #111827;
 }
 
 /* toggle  */
