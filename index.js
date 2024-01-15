@@ -31,7 +31,7 @@ btnEl.addEventListener("click", () => {
         passwordLength = 15;
     }
     
-    const isChecked = getValue();
+    const isChecked = getValue("input-symbol");
     const isCheckedArray = isInputChecked(isChecked);
     
     firstPwd.textContent = getRandom(passwordLength, isCheckedArray);
@@ -50,13 +50,10 @@ function isInputChecked(isChecked) {
     return characters
 }
 
-function getValue() {
-    const isChecked = document.getElementById("input-symbol").checked;
-    
-    if (isChecked) {
-     return true;
-   } else {
-     return false;
-   }
+function getValue(input) {
+    const isChecked = document.getElementById(input).checked;
+    let isInputChecked = isChecked ? true : false;
+
+    return isInputChecked;
 }
 
