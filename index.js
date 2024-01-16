@@ -36,6 +36,8 @@ btnEl.addEventListener("click", () => {
     
     firstPwd.textContent = getRandom(passwordLength, isCheckedArray);
     secondPwd.textContent = getRandom(passwordLength, isCheckedArray);
+
+    inputLength.value = "";
 });
 
 function isInputChecked(isChecked) {
