@@ -26,18 +26,27 @@ function getRandom(passwordLength = 15, isCheckedArray){
 
 btnEl.addEventListener("click", () => {
     let passwordLength = inputLength.value;
-  
-    if (!passwordLength) {
-        passwordLength = 15;
-    }
-    
-    const isChecked = getValue("input-symbol");
-    const isCheckedArray = isInputChecked(isChecked);
-    
-    firstPwd.textContent = getRandom(passwordLength, isCheckedArray);
-    secondPwd.textContent = getRandom(passwordLength, isCheckedArray);
+    const error = inputLength.nextElementSibling;
 
-    inputLength.value = "";
+    if (!passwordLength) {
+    passwordLength = 15;
+    }
+
+    if (passwordLength < 4 || passwordLength > 20 )  {
+        error.textContent = "Please choose a number between 4 and 20 characters";
+        // inputLength.value = "";
+        return;
+    } 
+
+        error.textContent = ""
+        const isChecked = getValue("input-symbol");
+        const isCheckedArray = isInputChecked(isChecked);
+        
+        firstPwd.textContent = getRandom(passwordLength, isCheckedArray);
+        secondPwd.textContent = getRandom(passwordLength, isCheckedArray);
+
+        inputLength.value = "";
+           
 });
 
 function isInputChecked(isChecked) {
