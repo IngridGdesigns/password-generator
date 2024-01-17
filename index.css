@@ -6,10 +6,13 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.flex {
+  display: flex;
+}
+
 #password-interface {
   background-color: #4C1D95;
   color: #fff;
-  display: flex;
   flex-direction: column;
   padding: 100px 50px;
   align-items: left;
@@ -57,7 +60,6 @@ hr {
 }
 
 .passwordContainer {
-  display: flex;
   justify-content: space-between;
   align-items: left;
 }
@@ -85,11 +87,37 @@ input {
   border-radius: 5px;
   width: 45px;
   padding: 5px 5px;
-  margin-top: 8px 0 15px 0;
+  margin: 8px 0 15px 0;
   font-style: bold;
   color: #10B981;
   text-align: center;
   font-size: small;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
+
+/* This is the style of our error messages */ 
+.error {
+  width: 100%;
+  padding: 0;
+  font-size: 80%;
+  font-weight: bold;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+ 
+}
+
+.error.active {
+  padding: 20px;
+  margin-bottom: 5px;
 }
 
 #input-length {
@@ -98,7 +126,7 @@ input {
 
 /* toggle  */
 #symbols {
-  display: flex;
+  margin-top: 10px;
   flex-direction: row;
   align-items: center;
   padding-bottom: 30px;
