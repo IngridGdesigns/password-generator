@@ -10,20 +10,20 @@
 </head>
     <body>
         <main id="password-interface" class="flex">
-            <h1 class="main-title">Generate a <br> <span class="greenText">random password</span></h1>
+            <h1 class="main-title">Generate a <br> <span class="greenText" role="highlight with green text">random password</span></h1>
             <p class="main-subhead">Never use an insecure password again.</p>
             <label><b>Optional:</b><br>
                 Set password length between 4 and 20 characters
             </label>
             <input id="input-length" type="number" placeholder="15" min="4" max="20" pattern="\d+">
             <span class="error"></span>
-            <div id="symbols" class="flex">
+            <section id="symbols" class="flex">
                 <label class="switch">
                     <input id="input-symbol" type="checkbox" checked>
                     <span class="slider round"></span>
                 </label>
                 <div>Symbols</div>
-            </div>
+            </section>
             <button id="btn-el" type="button">Generate passwords</button>
             <hr class="colors">
             <section class="passwordContainer flex">
