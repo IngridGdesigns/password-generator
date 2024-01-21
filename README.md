@@ -6,6 +6,8 @@ A solo project to work further with the DOM and javascript and CSS flexbox. Gene
 
 Live site: https://createrandom-passwordgenerator.netlify.app/
 
+![password generator](https://github.com/IngridGdesigns/password-generator/blob/main/screenshot.png)
+
 Quick start:
 
 ```
