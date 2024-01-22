@@ -6,7 +6,7 @@ A solo project to work further with the DOM and javascript and CSS flexbox. Gene
 
 Live site: https://createrandom-passwordgenerator.netlify.app/
 
-![password generator](https://github.com/IngridGdesigns/password-generator/blob/main/screenshot.png)
+<img src="https://github.com/IngridGdesigns/password-generator/blob/main/screenshot.png" alt="password generator screenshot of app" width="50%" height="50%">
 
 Quick start:
 
