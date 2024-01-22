@@ -15,5 +15,4 @@ $ npm install
 $ npm start
 ````
 
-- [Scrimba](https://scrimba.com/learn/frontend)
 
